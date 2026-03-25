@@ -10,80 +10,63 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </head>
 <body>
-   <header>
-
-<div class="container-fluid bg-warning text-dark py-2">
-  <div class="container d-flex justify-content-between">
-    
-    <div class="d-flex gap-3 fw-bold small">
-      <span><i class="bi bi-telephone"></i> +91-98765-4321</span>
-      <span class="d-none d-md-block"><i class="bi bi-envelope"></i> info@happyfence.com</span>
+    <header>
+           <div class="container-fluid header-top text-black bg-warning d-flex justify-content-between align-items-center px-5">
+        <div class="d-flex gap-5 fw-bolder">
+            <span><i class="bi bi-telephone">+91-98765-4321</i></span>
+            <span><i class="bi bi-envelope"> info@happyfence.com</i></span>
+        </div>
+        <div class="d-flex gap-4 ">
+            <i class="bi bi-instagram d-none d-md-block"></i>
+            <i class="bi bi-facebook d-none d-md-block"></i>
+            <i class="bi bi-twitter d-none d-md-block"></i>
+            <i class="bi bi-whatsapp d-none d-md-block"></i>
+        </div>
     </div>
 
-    <div class="d-none d-md-flex gap-3">
-      <i class="bi bi-instagram"></i>
-      <i class="bi bi-facebook"></i>
-      <i class="bi bi-twitter"></i>
-      <i class="bi bi-whatsapp"></i>
-    </div>
+    </header>
 
-  </div>
-</div>
+      <main class="fixed-top">
 
-</header>
-
-
-<nav class="navbar navbar-expand-lg navbar-dark bg-black sticky-top">
-  <div class="container">
-
-    <a class="navbar-brand fw-bold text-warning" href="#">
-      <img src="image/logo.svg" width="60"> foodwaGon
+<nav class="navbar navbar-expand-lg navbar-dark bg-black">
+  <div class="container-fluid ">
+    <a class="navbar-brand" href="#">
+      <img src="image/logo.svg" alt="foodwaGon" width="80" height="41">
+      <span class="text-warning">foodwaGon</span>
     </a>
-
-    <button class="navbar-toggler" type="button"
-      data-bs-toggle="collapse"
-      data-bs-target="#navmenu">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-
-    <div class="collapse navbar-collapse" id="navmenu">
-
-      <ul class="navbar-nav ms-auto gap-lg-3">
-
-        <li class="nav-item">
-          <a class="nav-link text-warning" href="#">Home</a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link text-warning" href="#">About</a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link text-warning" href="#">Menu</a>
-        </li>
-
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle text-warning"
-            data-bs-toggle="dropdown" href="#">
-            Pages
-          </a>
-
-          <ul class="dropdown-menu bg-black">
-            <li><a class="dropdown-item text-warning" href="#">Contact</a></li>
-            <li><a class="dropdown-item text-warning" href="#">Book Table</a></li>
-          </ul>
-
-        </li>
-
-      </ul>
-
-      <button class="btn btn-warning ms-lg-3 mt-3 mt-lg-0">
-        Login
-      </button>
-
     </div>
+    <div class="collapse navbar-collapse px-4" id="navbarSupportedContent">
 
-  </div>
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active text-warning"  aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active text-warning"  aria-current="page" href="above.html">About</a>
+        </li>
+                <li class="nav-item">
+          <a class="nav-link active text-warning"  aria-current="page" href="menu.html">Menu</a>
+        </li>
+
+        <li class="nav-item  dropdown">
+          <a class="nav-link dropdown-toggle text-warning " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            foodwaGon
+          </a>
+          <ul class="dropdown-menu bg-black">
+            <li><a class="dropdown-item text-warning" href="contact.html">Contact</a></li>
+            <li><a class="dropdown-item  text-warning" href="booktable.html">Book Table</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item  text-warning" href="#">Feedback</a></li>
+          </ul>
+        </li>
+      </ul>
+      <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Login
+</button>
+    </div>
 </nav>
 </main>  
   <!-- model -->

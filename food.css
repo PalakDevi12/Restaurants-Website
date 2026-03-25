@@ -51,6 +51,17 @@ max-width:500px;
 .text-form textarea{
 width:100%;
 }
+.text-form{
+width:100%;
+max-width:450px;
+margin:auto;
+}
+
+@media(min-width:992px){
+.text-form{
+max-width:350px;
+}
+}
 
 /* ===== RESPONSIVE BREAKPOINTS ===== */
 

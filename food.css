@@ -1,4 +1,141 @@
-  .header-top{
+/* ===== GLOBAL ===== */
+
+body{
+overflow-x: hidden;
+}
+
+img{
+max-width: 100%;
+height: auto;
+}
+
+/* ===== HEADER TOP ===== */
+
+.header-top{
+font-size:14px;
+}
+
+/* ===== NAVBAR ===== */
+
+.navbar-brand img{
+margin-right:5px;
+}
+
+/* ===== CARD HOVER EFFECT ===== */
+
+.card-blink{
+transition:0.4s;
+}
+
+.card-blink:hover{
+transform:scale(1.05);
+}
+
+/* ===== MENU CARDS RESPONSIVE ===== */
+
+.row .col{
+display:flex;
+}
+
+.card{
+width:100%;
+}
+
+/* ===== ABOUT SECTION ===== */
+
+.about{
+background:black;
+flex-wrap:wrap;
+}
+
+.about-img{
+width:100%;
+max-width:500px;
+margin:auto;
+display:block;
+}
+
+.about-first{
+color:white;
+padding:20px;
+}
+
+/* ===== BOOK TABLE ===== */
+
+.hero{
+border-radius:15px;
+}
+
+.book-card{
+border-radius:15px;
+}
+
+/* ===== CONTACT ===== */
+
+.text-form input{
+width:100%;
+padding:10px;
+margin-bottom:10px;
+}
+
+.send-class{
+width:100%;
+}
+
+/* ===== FOOTER ===== */
+
+.footer{
+position:relative;
+}
+
+.footer-content{
+padding:40px 20px;
+}
+
+.brand-logo{
+font-size:28px;
+font-weight:bold;
+}
+
+/* ===== MOBILE RESPONSIVE ===== */
+
+@media(max-width:768px){
+
+.header-top{
+text-align:center;
+}
+
+.navbar-nav{
+text-align:center;
+}
+
+.about{
+text-align:center;
+}
+
+.about-first1{
+font-size:28px;
+}
+
+.hero{
+height:200px;
+padding:20px;
+}
+
+}
+
+@media(max-width:576px){
+
+.brand-logo{
+font-size:22px;
+}
+
+.footer-content{
+padding:30px 10px;
+}
+
+}
+.header-top{
             height: 50px;
         }
         .header-class{

@@ -1,137 +1,86 @@
-/* ===== GLOBAL ===== */
+/* ===== GLOBAL WIDTH FIX ===== */
+
+*{
+box-sizing:border-box;
+}
 
 body{
-overflow-x: hidden;
+overflow-x:hidden;
 }
+
+/* ===== CONTAINER WIDTH ===== */
+
+.container,
+.container-fluid{
+width:100%;
+padding-left:15px;
+padding-right:15px;
+margin:auto;
+}
+
+/* ===== IMAGE RESPONSIVE ===== */
 
 img{
-max-width: 100%;
-height: auto;
+max-width:100%;
+height:auto;
+display:block;
 }
 
-/* ===== HEADER TOP ===== */
-
-.header-top{
-font-size:14px;
-}
-
-/* ===== NAVBAR ===== */
-
-.navbar-brand img{
-margin-right:5px;
-}
-
-/* ===== CARD HOVER EFFECT ===== */
-
-.card-blink{
-transition:0.4s;
-}
-
-.card-blink:hover{
-transform:scale(1.05);
-}
-
-/* ===== MENU CARDS RESPONSIVE ===== */
-
-.row .col{
-display:flex;
-}
+/* ===== CARD WIDTH ===== */
 
 .card{
 width:100%;
 }
 
-/* ===== ABOUT SECTION ===== */
+/* ===== ABOUT SECTION WIDTH ===== */
 
 .about{
-background:black;
+display:flex;
 flex-wrap:wrap;
+gap:20px;
 }
 
 .about-img{
 width:100%;
 max-width:500px;
-margin:auto;
-display:block;
 }
 
-.about-first{
-color:white;
-padding:20px;
-}
+/* ===== CONTACT FORM WIDTH ===== */
 
-/* ===== BOOK TABLE ===== */
-
-.hero{
-border-radius:15px;
-}
-
-.book-card{
-border-radius:15px;
-}
-
-/* ===== CONTACT ===== */
-
-.text-form input{
-width:100%;
-padding:10px;
-margin-bottom:10px;
-}
-
-.send-class{
+.text-form input,
+.text-form textarea{
 width:100%;
 }
 
-/* ===== FOOTER ===== */
+/* ===== RESPONSIVE BREAKPOINTS ===== */
 
-.footer{
-position:relative;
-}
-
-.footer-content{
-padding:40px 20px;
-}
-
-.brand-logo{
-font-size:28px;
-font-weight:bold;
-}
-
-/* ===== MOBILE RESPONSIVE ===== */
-
-@media(max-width:768px){
-
-.header-top{
-text-align:center;
-}
-
-.navbar-nav{
-text-align:center;
-}
-
-.about{
-text-align:center;
-}
-
-.about-first1{
-font-size:28px;
-}
-
-.hero{
-height:200px;
-padding:20px;
-}
-
-}
-
+/* Mobile */
 @media(max-width:576px){
 
-.brand-logo{
-font-size:22px;
+.row{
+flex-direction:column;
 }
 
-.footer-content{
-padding:30px 10px;
+.navbar-brand{
+font-size:18px;
+}
+
+}
+
+/* Tablet */
+@media(min-width:577px) and (max-width:991px){
+
+.about-img{
+max-width:400px;
+}
+
+}
+
+/* Desktop */
+@media(min-width:992px){
+
+.container{
+max-width:1200px;
 }
 
 }

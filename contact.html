@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="food.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <header>
+           <div class="container-fluid header-top text-black bg-warning d-flex justify-content-between align-items-center px-5">
+        <div class="d-flex gap-5 fw-bolder">
+            <span><i class="bi bi-telephone">+91-98765-4321</i></span>
+            <span><i class="bi bi-envelope"> info@happyfence.com</i></span>
+        </div>
+        <div class="d-flex gap-4 ">
+            <i class="bi bi-instagram d-none d-md-block"></i>
+            <i class="bi bi-facebook d-none d-md-block"></i>
+            <i class="bi bi-twitter d-none d-md-block"></i>
+            <i class="bi bi-whatsapp d-none d-md-block"></i>
+        </div>
+    </div>
+
+    </header>
+
+      <main class="fixed-top">
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-black">
+  <div class="container-fluid ">
+    <a class="navbar-brand" href="#">
+      <img src="image/logo.svg" alt="foodwaGon" width="80" height="41">
+      <span class="text-warning">foodwaGon</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    </div>
+    <div class="collapse navbar-collapse px-4" id="navbarSupportedContent">
+
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active text-warning"  aria-current="page" href="food.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active text-warning"  aria-current="page" href="above.html">About</a>
+        </li>
+                <li class="nav-item">
+          <a class="nav-link active text-warning"  aria-current="page" href="menu.html">Menu</a>
+        </li>
+
+        <li class="nav-item  dropdown">
+          <a class="nav-link dropdown-toggle text-warning " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            foodwaGon
+          </a>
+           <ul class="dropdown-menu bg-black">
+            <li><a class="dropdown-item text-warning" href="contact.html">Contact</a></li>
+            <li><a class="dropdown-item  text-warning" href="booktable.html">Book Table</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item  text-warning" href="#">Feedback</a></li>
+          </ul>
+        </li>
+      </ul>
+      <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Login
+</button>
+    </div>
+</nav>
+</main>  
+  <!-- model -->
+   <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered ">
+    <div class="modal-content bg-black">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5 text-warning" id="exampleModalLabel">Login</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <!-- form tody -->
+      <form>
+  <div class="col-mb-12">
+    <label for="exampleInputEmail1" class="form-label text-white">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
+  </div>
+  <div class="col-md-12">
+    <label for="exampleInputPassword1" class="form-label text-white">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+  <div class="col-md-12 form-check pt-2">
+     <button type="submit" class="btn btn-warning">Submit</button>
+  
+  </div>
+</form>
+      </div>
+    
+    </div>
+  </div>
+</div>
+<!-- contact -->
+ 
+ <div class="bg-black text-white">
+  <div style="margin-left: 140px;">
+
+        <h1 class="contact-first text-warning text-center pt-4">Contact</h1>
+        <br>
+        <p class="text-class fw-bold">We offer full-service catering for any event, large or small. We understand your needs
+            and we will cater the food to satisfy the biggerst criteria of them all, both look and taste. <br> Do not
+            hesitate to contact us.</p>
+        <br>
+        <p class="text-class fw-bold">Catering Service,42nd Living St,43043 New York,NY</p>
+        <br>
+        <p class="text-class fw-bold">You can also contact us by phone 00553123-2323 or email catering@catering.com, or you
+            can send us a message here:</p>
+        <br>
+        <form class=" text-class pb-5">
+          <div class="text-form">
+            <input type="text" placeholder="Name" class="text-class" required> <br>
+            <br>
+              <input type="email" placeholder="Email" class="text-class"  required> <br>
+            <br>
+              <input type="password" placeholder="Password"  class="text-class" required> <br>
+            <br>
+            <input type="text" placeholder="How many people" class="text-class" required><br><br>
+            <input type="datetime-local" placeholder="date and time"class="text-class text-secondary"  required name="date"
+                value="2020-11-16T20:00"><br><br>
+            <input type="text" placeholder="Message/Specail requirements" class="text-class" required name="message"><br><br>
+      <button type="button" class="btn btn-warning send-class">Send Message</button>
+          </div>
+        </form>
+    </div>
+  </div>
+  
+  <!-- footer -->
+   
+    <footer class="footer bg-warning">
+<div class="container footer-content">
+<div class="row gy-5">
+
+
+<!-- Brand -->
+<div class="col-md-4">
+<div class="brand-logo">
+<span>🍔🍕</span>foodwaGon
+</div>
+<p class="mt-3 small text-dark ">Burgers grilled to perfection & pizzas baked with love. Creative flavors, unforgettable bites!</p>
+<div class="d-flex mt-3">
+<a href="#" class="social-btn"><i class="bi bi-instagram"></i></a>
+<a href="#" class="social-btn"><i class="bi bi-facebook"></i></a>
+<a href="#" class="social-btn"><i class="bi bi-twitter"></i></a>
+</div>
+</div>
+
+
+<!-- Menu -->
+<div class="col-md-3">
+<h6 class="fw-bold text-uppercase text-dark">Menu Highlights</h6>
+<ul class="list-unstyled mt-3">
+<li class="menu-item"><span class="food-icon">🍔</span> Burgers <span class="badge-new">Hot</span></li>
+<li class="menu-item"><span class="food-icon">🍕</span> Pizza Specials</li>
+<li class="menu-item"><span class="food-icon">🥗</span> Healthy Salads</li>
+<li class="menu-item"><span class="food-icon">🥤</span> Shakes & Drinks</li>
+</ul>
+</div>
+
+
+<!-- Hours & Contact -->
+<div class="col-md-3 text-dark">
+<h6 class="fw-bold text-uppercase text-dark ">Visit Us</h6>
+<p class="small text-dark mt-3">Mon–Fri: 11AM – 11PM<br>Sat–Sun: 10AM – Midnight</p>
+<p class="small text-dark">📍 45 Spice Street, Foodville<br>☎️ <a href="tel:+911234567890" class="text-light">+91 12345 67890</a></p>
+</div>
+
+
+<!-- Newsletter -->
+<div class="col-md-2 text-dark">
+<h6 class="fw-bold text-uppercase">Subscribe</h6>
+<form class="d-flex newsletter-input mt-3">
+<input type="email" class="form-control" placeholder="Email">
+<button type="submit">Go</button>
+</form>
+<p class="small text-dark mt-2">Get fresh deals weekly.</p>
+</div>
+</div>
+
+</div>
+</footer>
+</body>
+</html>

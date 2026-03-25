@@ -1,0 +1,129 @@
+  .header-top{
+            height: 50px;
+        }
+        .header-class{
+           position: fixed;
+    width: 100%;
+    top: 0px;
+
+        }
+        /* menu */
+ .img-class{
+  font-size:30px;
+  color:rgb(202, 105, 15);
+ }
+ .noddle-class{
+    font-size:30px;
+ }
+ .pizza-class{
+  font-size: 30px;
+ }
+ .card-blink:hover{
+  height:300px;
+    width: 450px;
+ }
+  /* ABOUT */
+  .about{
+    background-color: black;
+  }
+.about-img{
+    width: 500px;
+    height: 550px;
+} 
+.menu-item:hover{
+  color:black;
+  background-color:yellow;
+}
+ /* footer */
+.footer::before {
+content: "";
+position: absolute;
+top: -50px;
+left: 0;
+width: 100%;
+height: 120px;
+background: url('https://svgshare.com/i/16Yw.svg') no-repeat center/cover;
+}
+.footer-content {
+border-radius: 30px 30px 0 0;
+padding: 3rem 2rem;
+}
+.brand-logo {
+font-size: 2rem;
+font-weight: 700;
+display: flex;
+align-items: center;
+gap: .5rem;
+color: black;
+}
+.brand-logo span { font-size: 2.2rem; }
+.menu-item {
+display: flex;
+align-items: center;
+gap: .75rem;
+font-weight: 500;
+transition: transform 0.3s;
+}
+.menu-item:hover { transform: translateX(8px); color: var(--accent); }
+.food-icon {
+font-size: 1.6rem;
+}
+.social-btn {
+width: 42px; height: 42px; display:inline-flex; align-items:center; justify-content:center;
+border-radius: 50%;
+background: rgba(255,255,255,0.05);
+color: #f1f5f9;
+margin-right: .6rem;
+transition: all .3s;
+}
+.social-btn:hover { background: var(--accent); color:black; }
+.newsletter-input input { border-radius: 20px 0 0 20px; }
+.newsletter-input button { border-radius: 0 20px 20px 0; background: var(--accent); color: #fff; border: none; }
+.badge-new {
+background: var(--accent);
+color: #fff;
+font-size: .7rem;
+margin-left: .4rem;
+border-radius: 6px;
+padding: 2px 6px;
+animation: pulse 1.5s infinite;
+}
+@keyframes pulse {
+0%, 100% { opacity: 1; }
+50% { opacity: .6; }
+}
+/* booktable */
+    .hero {
+      background: url('https://images.unsplash.com/photo-1600891964599-f61ba0e24092?q=80&w=1600&auto=format&fit=crop') 
+        center/cover no-repeat;
+      height: 280px;
+      border-radius: 1rem;
+      box-shadow: 0 6px 20px rgba(0,0,0,.2);
+      display: flex;
+      align-items: flex-end;
+      padding: 2rem;
+      color: white;
+    }
+    .hero h1 { text-shadow: 2px 2px 6px rgba(0,0,0,.6); 
+    }
+    .book-card {
+      border: none;
+      border-radius: 1rem;
+      box-shadow: 0 8px 20px rgba(0,0,0,.1);}
+    /* 
+    .btn-primary {
+      background: linear-gradient(45deg,#ff5f6d,#ffc371);
+      border: none;
+    }
+    .btn-primary:hover {
+      background: linear-gradient(45deg,#ff9966,#ff5e62);
+    } */
+    .specials {
+      background: url('https://images.unsplash.com/photo-1565958011703-44e7b31c3b10?q=80&w=800&auto=format&fit=crop') 
+        center/cover;
+      border-radius: 1rem;
+      color: white;
+      padding: 1.5rem;
+    }
+    .specials h4 { text-shadow: 1px 1px 6px rgba(0,0,0,.6); 
+    }

@@ -179,4 +179,120 @@ animation: pulse 1.5s infinite;
   iframe {
     width: 100%;
   }
+}/* ================= MOBILE RESPONSIVE ================= */
+
+@media only screen and (max-width:768px){
+
+/* Header */
+.header-top{
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px !important;
+    text-align: center;
+}
+
+/* Navbar */
+.navbar{
+    padding: 10px;
+}
+
+.navbar-brand img{
+    width: 60px;
+    height: auto;
+}
+
+.navbar-collapse{
+    background-color: black;
+    padding: 15px;
+}
+
+/* Carousel */
+.carousel-item img{
+    height: 250px !important;
+    object-fit: cover;
+}
+
+/* Cards */
+.row{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.col{
+    width: 100%;
+}
+
+.card{
+    width: 100%;
+}
+
+/* About Section */
+.about{
+    flex-direction: column;
+    padding: 20px !important;
+    text-align: center;
+}
+
+.about-img{
+    width: 100%;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.about-first{
+    width: 100%;
+}
+
+.about-second br{
+    display: none;
+}
+
+/* Book Table */
+.hero{
+    text-align: center;
+}
+
+.book-card{
+    margin-bottom: 20px;
+}
+
+/* Contact */
+.text-class{
+    width: 100%;
+}
+
+.contact-first{
+    font-size: 30px;
+}
+
+.bg-black div[style]{
+    margin-left: 0 !important;
+    padding: 15px;
+}
+
+/* Footer */
+.footer-content{
+    text-align: center;
+}
+
+.newsletter-input{
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Buttons */
+button,
+.btn{
+    width: 100%;
+}
+
+/* Text */
+h1{
+    font-size: 28px !important;
+}
+
+p{
+    font-size: 14px;
+}
+
 }

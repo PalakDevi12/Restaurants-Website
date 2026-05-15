@@ -188,6 +188,7 @@ animation: pulse 1.5s infinite;
     flex-direction: column;
     gap: 10px;
     padding: 10px !important;
+
     text-align: center;
 }
 

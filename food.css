@@ -127,3 +127,56 @@ animation: pulse 1.5s infinite;
     }
     .specials h4 { text-shadow: 1px 1px 6px rgba(0,0,0,.6); 
     }
+/* Mobile Responsive */
+@media screen and (max-width: 768px) {
+
+  nav {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .home-content {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .home-content img {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .cards,
+  .menu-container,
+  .about-container,
+  .contact-container {
+    grid-template-columns: 1fr;
+    flex-direction: column;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  button {
+    width: 100%;
+  }
+
+  iframe {
+    width: 100%;
+  }
+}
